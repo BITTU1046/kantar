@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dropdown with Tree Structure</title>
+    <link rel="stylesheet" href="test.css">
+</head>
+<body>
+    <div class="dropdown">
+        <div class="DropDown">
+            <input type="text" id="selectedFruits" name="selectedFruits" readonly>
+            <span class="dropdown-icon" id="dropdownIcon">&#9660;</span>
+        </div>
+       
+        <ul class="options-list" id="optionsList">
+            <input type="text" id="searchInput" placeholder="Search...">
+
+            <li>
+                <input type="checkbox" value="fruits" id="category-fruits">
+                <label for="category-fruits">Fruits</label>
+                <ul>
+                    <li><input type="checkbox" value="apple"> Apple</li>
+                    <li><input type="checkbox" value="banana"> Banana</li>
+                    <li><input type="checkbox" value="cherry"> Cherry</li>
+                    <li><input type="checkbox" value="grape"> Grape</li>
+                    <li><input type="checkbox" value="orange"> Orange</li>
+                </ul>
+            </li>
+            <li>
+                <input type="checkbox" value="vegetables" id="category-vegetables">
+                <label for="category-vegetables">Vegetables</label>
+                <ul>
+                    <li><input type="checkbox" value="carrot"> Carrot</li>
+                    <li><input type="checkbox" value="broccoli"> Broccoli</li>
+                    <li><input type="checkbox" value="tomato"> Tomato</li>
+                    <li><input type="checkbox" value="cucumber"> Cucumber</li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+
+    <script src="test.js"></script>
+</body>
+</html>

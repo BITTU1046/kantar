@@ -1,0 +1,46 @@
+/* Add your styles here */
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}.DropDown{
+    width:20vw;
+    height:7vh;
+    border:0.1rem solid black;
+}
+
+
+
+#selectedFruits {
+    width: 200px;
+    height:80%;
+    border:none;
+}
+
+.dropdown-icon {
+    cursor: pointer;
+}
+
+.options-list {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    list-style: none;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    padding: 5px;
+    max-height: 150px;
+    overflow-y: auto;
+}
+
+.options-list li {
+    padding: 5px;
+}
+
+.options-list li:hover {
+    background-color: #ddd;
+}
+
+ul{
+    list-style: none;
+}
